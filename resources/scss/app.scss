@@ -13,3 +13,17 @@ $fa-font-path: "../webfonts" !default;
     background-image:url("../img/jumbotron.jpg");
     height: 450px;
 }
+
+main{
+    background-color: $backgroundMain;
+}
+
+.card{
+    margin-bottom: 50px;
+    min-height: 300px;
+    
+    img{ 
+      min-height: 300px ;
+    }
+
+    }

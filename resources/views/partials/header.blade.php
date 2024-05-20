@@ -14,14 +14,4 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search &#128269" aria-label="Search">
         </div>
     </nav>
-
-    <!-- navbar -->
-    <div id="nav" class="p-3">
-        <ul>
-
-
-        </ul>
-    </div>
-
-
 </header>
