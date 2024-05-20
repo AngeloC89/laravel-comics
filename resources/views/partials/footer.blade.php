@@ -13,4 +13,19 @@
         </div>
     </div>
  </section>
+ <section id="footer_mid">
+ <div>
+        <div class="container d-flex ">
+            <div id="list">
+                <ul class="list-unstyled pe-3 ">
+                    <li>
+                        <h4 class="text-white"></h4>
+                    </li>
+                    <li></a></li>
+                </ul>
+            </div>
+            <div id="dc-comics"></div>
+        </div>
+    </div>
+ </section>
 </footer>
