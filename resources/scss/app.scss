@@ -9,3 +9,7 @@ $fa-font-path: "../webfonts" !default;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
+#jumbotron {
+    background-image:url("../img/jumbotron.jpg");
+    height: 400px;
+}

@@ -1,23 +1,16 @@
-<header class="bg-white">
-    <div id="logo" class="text-center">
-        <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="Logo">
-    </div>
-    <div id="main-menu">
-        <nav class="navbar-nav container navbar-light">
-            <ul class="list-unstyled d-flex justify-content-center gap-2 text-uppercase">
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active' : '' }}"
-                        href="{{route('home')}}">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'about' ? 'active' : '' }}"
-                        href="{{route('about')}}">
-                        About
-                    </a>
-                </li>
+<header>
+    <div class="container d-flex justify-content-between align-items-center ">
+        <!-- Logo -->
+        <div id="logo" class="text-center">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
+        </div>
+        <!-- navbar -->
+        <div id="nav" class="p-3">
+            <ul>
+               
+        
             </ul>
-        </nav>
+        </div>
+
     </div>
 </header>
