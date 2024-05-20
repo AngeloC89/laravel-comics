@@ -1,16 +1,27 @@
 <header>
-    <div class="container d-flex justify-content-between align-items-center ">
+
+    <nav class="navbar navbar-light bg-light justify-content-around">
         <!-- Logo -->
         <div id="logo" class="text-center">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
         </div>
-        <!-- navbar -->
-        <div id="nav" class="p-3">
-            <ul>
-               
-        
-            </ul>
+        <ul class="d-flex">
+            @foreach($links as $link)
+            <li class="text-uppercase list-unstyled mx-2"><a class="text-decoration-none" href="/">{{ $link }}</a></li>
+            @endforeach
+        </ul>
+        <div class="d-flex">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search &#128269" aria-label="Search">
         </div>
+    </nav>
 
+    <!-- navbar -->
+    <div id="nav" class="p-3">
+        <ul>
+
+
+        </ul>
     </div>
+
+
 </header>
