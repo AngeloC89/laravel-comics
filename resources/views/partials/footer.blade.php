@@ -19,16 +19,17 @@
         <div>
             <div class="container d-flex ">
                 <div id="list">
-                    <ul class="list-unstyled ">
-                        @foreach($link_fot_mid as $links)
-                            <li>
-                                <h4 class="text-white">{{ $links['title'] }}</h4>
-                            </li>
+
+                    @foreach($link_fot_mid as $links)
+                        <h4 class="text-white">{{ $links['title'] }}</h4>
+                            <ul class="list-unstyled ">
                             @foreach ($links['links'] as $link)
                                 <li><a href="/">{{ $link }}</a></li>
-                            @endforeach
-                        @endforeach
-                    </ul>
+                                @endforeach
+                            </ul>
+                      
+                    @endforeach
+
                 </div>
                 <div id="dc-comics"></div>
             </div>
